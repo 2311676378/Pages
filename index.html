@@ -45,8 +45,8 @@
         <p class="panel-cover__description">Make Your Choice</p>
         <hr class="panel-cover__divider"> 
         <p class="panel-cover__description">Welcome To SMNET Static Server</p>
-	<p class="footer">Security By SMNET CDN</p>	
-
+        <p id="client-ip" class="panel-cover__description"></p>
+	      <p class="footer">Security By SMNET CDN</p>	
         <div class="navigation-wrapper">
           <div>
             <nav class="cover-navigation cover-navigation--primary">
@@ -64,6 +64,16 @@
 </header>
 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+  fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('client-ip').textContent = 'Client IP: ' + data.ip;
+    })
+    .catch(error => {
+      console.error('Error Fetching IP:', error);
+    });
+</script>
 
 <div style="display:none">
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261228681'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1261228681' type='text/javascript'%3E%3C/script%3E"));</script>
