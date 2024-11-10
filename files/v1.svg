@@ -1,0 +1,84 @@
+<svg
+        id="iconce.com"
+        width="500"
+        height="35"
+        viewBox="0 0 500 35"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+      <defs>
+        <linearGradient
+          id="r5"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="rotate(45)"
+          style="transform-origin:center center"
+        >
+          <animateTransform
+              attributeName="gradientTransform"
+              type="rotate"
+              values="0;360"
+              dur="5s"
+              repeatCount="indefinite"
+            />
+          <stop stop-color="#FC466B">
+            <animate
+                attributeName="stop-color"
+                values="#FC466B;#3F5EFB;#FC466B"
+                dur="3s"
+                repeatCount="indefinite"
+              />
+          </stop>
+          <stop offset="1" stop-color="#3F5EFB">
+            <animate
+                attributeName="stop-color"
+                values="#3F5EFB;#FC466B;#3F5EFB"
+                dur="3s"
+                repeatCount="indefinite"
+              />
+          </stop>
+        </linearGradient>
+        <radialGradient
+          id="r6"
+          cx="0"
+          cy="0"
+          r="1"
+          gradientUnits="userSpaceOnUse"
+          gradientTransform="translate(256) rotate(90) scale(512)"
+        >
+          <stop stop-color="white"></stop>
+          <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+        </radialGradient>
+        
+        
+      </defs>
+      <rect
+        id="r4"
+        width="500"
+        height="35"
+        x="0"
+        y="0"
+        rx="8"
+        fill="url(#r5)"
+        stroke="#FFFFFF"
+        stroke-width="0"
+        stroke-opacity="100%"
+        paint-order="stroke"
+        mask="undefined"
+      ></rect>
+      
+      
+      
+      <text
+            x="50%"
+            y="50%"
+            font-size="20"
+            font-family="cursive"
+            font-weight="600"
+            fill="#FFFFFF"
+            text-anchor="middle"
+            dy="0.35em">
+            你三观越正 就会发现 你与这世界更加的格格不入​
+          </text>
+      
+    </svg>
