@@ -453,7 +453,7 @@ async function getMediaSource(musicItem, quality) {
     };
 }
 module.exports = {
-    platform: "SMNET QMusic",
+    platform: "QMusic",
     author: "Service By SMNET Studio",
     version: "0.0.1",
     srcUrl: "https://static.smnet.asia/files/qmusic.js",
